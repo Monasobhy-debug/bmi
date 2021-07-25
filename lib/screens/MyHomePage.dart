@@ -28,6 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
       dropdownItems.add(newItem);
     }
     return DropdownButton<String>(
+      underline: Container(color: Colors.transparent),
       icon: Icon(
         Icons.keyboard_arrow_down,
         color: Colors.black,
@@ -57,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
       dropdownItems.add(newItem);
     }
     return DropdownButton<String>(
+      underline: Container(color: Colors.transparent),
       icon: Icon(
         Icons.keyboard_arrow_down,
         color: Colors.black,
